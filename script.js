@@ -157,7 +157,12 @@ function determineWinner(userChoice, compChoice){
 function play() {
 
     // asks user to make a selection
-    var userChoice = prompt("Please select 'R' for rock; 'P' for paper; 'S' for scissors; 'L' for lizard; or 'V' for Spock.");
+    var userChoice = prompt(`Please select: 
+    'R' for rock
+    'P' for paper
+    'S' for scissors
+    'L' for lizard
+    'V' for Spock -> Live long and prosper - V`);
     userChoice = userChoice.toUpperCase();
 
     // if user chose a valid option play the game, if not, have them try again
